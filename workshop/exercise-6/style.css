@@ -1,40 +1,55 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* ADD CSS BELOW */
 
 body {
-
+  margin: 30px;
 }
 
-h1, h2 {
-    
+h1,
+h2 {
+  font-family: "bangers", sans-serif;
 }
 
 h1 {
-
+  font-size: 48px;
+  text-align: center;
 }
 
 h2 {
-
+  font-size: 20px;
+  text-align: center;
 }
 
 .row {
-
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .col {
-
+  position: relative;
+  background-color: grey;
+  border: dashed;
 }
 
 .image {
-
+  height: 200px;
+  padding: 10px;
 }
