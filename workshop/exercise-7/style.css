@@ -42,9 +42,10 @@ h3 {
   list-style-type: none;
 }
 .col {
-  position: relative;
+  
 		background-color:gray ;
-		border: 2px dashed rgb(65, 62, 62);
+    border: 2px dashed rgb(65, 62, 62);
+    
 }
 .images {
   display: flex;
